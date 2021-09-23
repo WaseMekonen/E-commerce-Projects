@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+body, h1,h2,h3,h4,h5,h6,p,button{
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  /* position: relative; */
+  width: 100%;
+  height: 10vh;
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #071435;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+}
+.navbar ul li {
+  padding: 2px 8px 2px 8px;
+  margin-left: 82px;
+  margin-right: 42px;
+}
+
+.navbar li:hover {
+  background-color: #41b57d;
+}
+.brand-title {
+  font-size: 35px;
+  margin: 2px;
+  font-family: "Quattrocento Sans", sans-serif;
+  color: white;
+}
+.search-bar {
+  position: relative;
+}
+.search-input {
+  border-radius: 9%;
+  margin-right: 29px;
+  width: 150%;
+}
+.search-btn {
+  position: relative;
+  background-color: #41b57d;
+  color: #ffffff;
+  border-radius: 9%;
+  left: 2%;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  /* height: 30%; */
+  background-color: #c4c4c4;
+}
+.banner h1 {
+  position: absolute;
+  color: #071435;
+  font-size: 90px;
+  top: 16%;
+  left: 6%;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.banner h2 {
+  position: absolute;
+  color: white;
+  font-size: 67px;
+  top: 38%;
+  left: 6%;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+.circle-drone-bg {
+  position: relative;
+  height: 91%;
+  top: 5%;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  left: 53%;
+}
+
+.banner .circle-drone-bg img {
+  position: absolute;
+  width: 165%;
+  height: 134%;
+  right: -16%;
+  top: -12%;
+}
+
+main {
+  position: relative;
+  width: 100%;
+}
+.categories {
+  position: relative;
+  width: 100%;
+  height: 102vh;
+  background-color: #4a4a4a;
+}
+/* .categories h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+} */
+.Drones-cat {
+  position: absolute;
+  border-radius: 2%;
+  background-color: #ffffff;
+  height: 45%;
+  width: 36%;
+  top: 2%;
+  left: 2%;
+}
+.Drones-cat h3 {
+  position: absolute;
+  font-size: 65px;
+  color: #41b57d;
+  font-family: "Quattrocento Sans", sans-serif;
+  top: 34%;
+  right: 47%;
+}
+.Drones-cat img {
+  width: 56%;
+  margin-top: -7%;
+  margin-left: 36%;
+}
+.computers-cat {
+  position: absolute;
+  border-radius: 2%;
+  background-color: #ffffff;
+  width: 30%;
+  height: 46vh;
+  left: 39%;
+  top: 2%;
+}
+.computers-cat h3 {
+  position: absolute;
+  font-size: 55px;
+  color: #41b57d;
+  font-family: "Quattrocento Sans", sans-serif;
+  top: -15%;
+  right: 24%;
+}
+.computers-cat img {
+  width: 63%;
+  margin-top: 23%;
+  margin-left: 35%;
+}
+.Consoles-cat {
+  position: absolute;
+  border-radius: 2%;
+  background-color: #ffffff;
+  width: 67%;
+  height: 47vh;
+  left: 2%;
+  top: 49%;
+}
+.Consoles-cat h3 {
+  position: absolute;
+  font-size: 59px;
+  color: #41b57d;
+  font-family: "Quattrocento Sans", sans-serif;
+  top: 17%;
+  right: 48%;
+}
+.Consoles-cat img {
+  width: 33%;
+  margin-top: -7%;
+  margin-left: 58%;
+}
+.SmartPhones-cat {
+  position: absolute;
+  border-radius: 2%;
+  background-color: #ffffff;
+  width: 28%;
+  height: 95vh;
+  left: 70%;
+  top: 2%;
+}
+.SmartPhones-cat h3 {
+  position: absolute;
+  font-size: 50px;
+  color: #41b57d;
+  font-family: "Quattrocento Sans", sans-serif;
+  top: 57%;
+  right: 4%;
+}
+.SmartPhones-cat img {
+  width: 59%;
+  margin-top: 3%;
+  margin-left: 21%;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  background-color: #071435;
+  /* remove over flow hidden  */
+  overflow: hidden;
+}
+.contact-us {
+  position: absolute;
+  width: 16%;
+  height: 58%;
+  color: #8691A7;
+  top: 18%;
+  padding: 0;
+  right: 81%;
+  border-right: solid 1px;
+}
+.contact-us h3 {
+  font-size: 25px;
+}
+.contact-us h4{
+  color: #8691A7;
+}
+.follow-us {
+  position: absolute;
+  width: 26%;
+  height: 58%;
+  color: #8691A7;
+  top: 19%;
+  left: 24%;
+  padding: -8px;
+  border-right: solid 1px;
+
+}
+.follow-us h3{
+  font-size: 25px;
+}
+.follow-us img {
+  width: 12%;
+  padding: 0%;
+  filter: none;
+  margin-right: 6%;
+}
+.follow-us img:hover {
+  filter: invert(1);
+
+}
