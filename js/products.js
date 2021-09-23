@@ -720,6 +720,3 @@ const products = [
     image: ["https://did.li/sy5Hw", "https://did.li/1UYYH"],
   },
 ];
-
-
-
