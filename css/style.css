@@ -294,14 +294,14 @@ footer {
     color: #8691a7;
     width: initial;
     padding: -8px;
-    border-right:none;
-    margin-left:0;
+    border-right: none;
+    margin-left: 0;
     margin-top: 14px;
   }
   .follow-us img {
     width: 7%;
   }
-  footer{
+  footer {
     height: auto;
   }
 }
@@ -309,5 +309,25 @@ footer {
 @media only screen and (min-width: 561px) and (max-width: 728px) {
   .navbar ul li {
     padding: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 963px) {
+  #cards-container .card {
+    width: 28%;
+    /* background-color: lawngreen !important; */
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  #cards-container .card {
+    width: 40%;
+    /* background-color: lawngreen !important; */
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  #cards-container .card {
+    width:60%;
+    margin-left: 74px;
   }
 }
