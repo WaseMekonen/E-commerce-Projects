@@ -1,12 +1,20 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* margin: 0;
   padding: 0; */
 }
 body {
   font-family: "Quattrocento Sans", sans-serif;
 }
-body,h1,h2,h3,h4,h5,h6,p,button {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
   margin: 0;
   padding: 0;
 }
@@ -21,10 +29,10 @@ header {
   height: 10vh;
 }
 .navbar {
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   background-color: #071435;
   color: white;
 }
@@ -36,14 +44,15 @@ header {
   padding: 21px;
   margin-left: 22px;
 }
-.fa-shopping-cart{
+.fa-shopping-cart {
   content: "\f07a";
   color: white;
   padding-right: 15px;
-  font-size: 17px;
+  font-size: 1rem;
 }
 .navbar li:hover {
   background-color: #41b57d;
+  cursor: pointer;
 }
 .brand-title {
   font-size: 34px;
@@ -62,14 +71,14 @@ main {
 .banner h1 {
   position: absolute;
   color: #071435;
-  font-size: 90px;
+  font-size: 6rem;
   top: 16%;
   left: 6%;
 }
 .banner h2 {
   position: absolute;
   color: white;
-  font-size: 67px;
+  font-size: 4rem;
   top: 45%;
   left: 6%;
 }
@@ -103,11 +112,12 @@ main {
   width: 36%;
   top: 2%;
   left: 2%;
+  border: 1px solid gray;
 }
 
 .Drones-cat h3 {
   position: absolute;
-  font-size: 45px;
+  font-size: 3rem;
   color: #071435;
   top: 10%;
   right: 41%;
@@ -118,6 +128,11 @@ main {
   width: 63%;
   top: 13%;
   left: 13%;
+}
+.Drones-cat:hover {
+  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  transition: 0.5s;
+  background-color: rgb(138, 83, 184);
 }
 
 .computers-cat {
@@ -132,7 +147,7 @@ main {
 
 .computers-cat h3 {
   position: absolute;
-  font-size: 45px;
+  font-size: 3rem;
   color: #071435;
   top: 6%;
   right: 50%;
@@ -143,6 +158,11 @@ main {
   width: 80%;
   top: 29%;
   left: 2%;
+}
+.computers-cat:hover {
+  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  transition: 0.5s;
+  background-color: rgb(252, 247, 0);
 }
 
 .Consoles-cat {
@@ -157,7 +177,7 @@ main {
 
 .Consoles-cat h3 {
   position: absolute;
-  font-size: 45px;
+  font-size: 3rem;
   color: #071435;
   top: 36%;
   right: 47%;
@@ -168,6 +188,11 @@ main {
   width: 28%;
   bottom: -15%;
   left: 71%;
+}
+.Consoles-cat:hover {
+  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  transition: 0.5s;
+  background-color: rgb(38, 207, 103);
 }
 
 .SmartPhones-cat {
@@ -182,7 +207,7 @@ main {
 
 .SmartPhones-cat h3 {
   position: absolute;
-  font-size: 45px;
+  font-size: 3rem;
   color: #071435;
   top: 6%;
   right: 15%;
@@ -194,18 +219,23 @@ main {
   bottom: 5%;
   left: 27%;
 }
+.SmartPhones-cat:hover {
+  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  transition: 0.5s;
+  background-color: rgb(21, 181, 221);
+}
 footer {
   height: 30vh;
   background-color: #071435;
   padding: 18px;
 }
-.contact-us{
+.contact-us {
   display: inline-block;
   color: #8691a7;
   border-right: solid 1px;
   padding-right: 3%;
 }
-.contact-us h3{
+.contact-us h3 {
   margin-bottom: 3%;
 }
 .follow-us {
@@ -216,13 +246,13 @@ footer {
   border-right: solid 1px;
   margin-left: 3%;
 }
-.follow-us h4{
+.follow-us h4 {
   margin-top: 2px;
 }
 
 .follow-us img {
   width: 12%;
-  padding: 0%;  
+  padding: 0%;
   filter: none;
   margin-right: 6%;
   margin-top: 3%;
