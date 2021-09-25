@@ -1,6 +1,5 @@
-const cardContainer = document.getElementById("cards-container");
-
 const cart = [];
+
 
 function getProductByID(id) {
   for (let i = 0; i < products.length; i++) {
@@ -11,8 +10,8 @@ function getProductByID(id) {
 }
 
 function addToCartByID(id) {
-  let newProduct = getProductByID(id);
-  cart.push(newProduct);
+  let Product = getProductByID(id);
+  cart.push(Product);
 }
 
 function removeItemFromCartById(id) {
@@ -27,7 +26,7 @@ function showItemByCategory(div, category) {
   for (let i = 0; i < products.length; i++) {
     if (products[i].category == category) {
       div.innerHTML += `<div class="card">
-      <div class="image" style="background-image: url(${products[i].image[0]})"></div>
+      <div class="image" style="background-image: url(${products[i].image[0]})" onmouseover="this.style.backgroundImage='url(${products[i].image[1]})'" onmouseout="this.style.backgroundImage='url(${products[i].image[0]})'"></div>
       <div class="details">
         <h4>${products[i].name}</h4>
         <p>${products[i].description}</p>
@@ -40,13 +39,19 @@ function showItemByCategory(div, category) {
     }
   }
 }
-showItemByCategory(cardContainer, "smartphones & tablets");
+
+
+
+const cardContainer = document.getElementById("cards-container");
+const pagesCategory = document.getElementsByClassName("page-category")[0];
+
+showItemByCategory(cardContainer,pagesCategory.id);
 
 const addToCartButtons = document.getElementsByClassName("addtocart-button");
 const itemCounterButoon = document.getElementById("itemCounter");
 
 for (let i = 0; i < addToCartButtons.length; i++) {
-  addToCartButtons[i].addEventListener("click", function (e) {
+  addToCartButtons[i].addEventListener("click", function(e){
     const button = e.target;
     if (button.innerText == "add to cart") {
       button.innerText = "item added";
@@ -65,3 +70,5 @@ for (let i = 0; i < addToCartButtons.length; i++) {
     }
   });
 }
+
+
