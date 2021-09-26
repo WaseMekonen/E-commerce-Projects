@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/d6ed6dee1c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/pages.css" />
     <link rel="stylesheet" href="../css/cart.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Racing+Sans+One&display=swap" rel="stylesheet"/>
@@ -29,9 +27,8 @@
       </nav>
     </header>
     <main class="main">
-      <section class="cart-container">
+      <div class="cart-container">
           <table class="table">
-            <tbody>
               <tr class="heading-row">
                 <th>PRODUCT</th>
                 <th>PRICE</th>
@@ -54,9 +51,25 @@
                 <td class="item-total">230$</td>
                 <td class="reomve-icon"><i class="fas fa-times"></i></td>
               </tr>
-            </tbody>
           </table>
-        <div class="order-container">
+          <div class="total-order">
+            <table>
+              <tr>
+                <td>Subtotal</td>
+                <td>230$</td>
+              </tr>
+              <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>230$</td>
+              </tr>
+            </table>
+          </div>
+          
+        <!-- <div class="order-container">
           <div class="order-head">
             <h5>Order Summry</h5>
           </div>
@@ -68,8 +81,9 @@
             <h3>Total</h3><span>230$</span>
           </div>
           <button class="checkout-button">CHECKOUT</button>
-        </div>
-      </section>
+        </div> -->
+      </div>
+      
       
     </main>
     <footer>
