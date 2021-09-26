@@ -6,12 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/d6ed6dee1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/smartphone.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Racing+Sans+One&display=swap"
-      rel="stylesheet"
-    />
-    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Racing+Sans+One&display=swap" rel="stylesheet"/>
+    <title>BigElectronic</title>
   </head>
   <body>
     <header>
@@ -19,10 +17,12 @@
         <div class="brand-title">
           <span style="color: #41b57d">Big</span>Electronic
         </div>
-        <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"><i class="fas fa-shopping-cart"></i></a>Cart</li>
+        <i class="fas fa-bars" id="burgerMenu"></i>
+        <ul id="menu" class="hide-menu" >
+          <li><a href="./drones.html"></a>Drones</li>
+          <li><a href="./consoles.html"></a>Game consoles</li>
+          <li><a href="./laptops.html"></a>Laptops</li>
+          <li><a href="#"></a><i class="fas fa-shopping-cart"><span id="itemCounter"></span></i></a></li>
         </ul>
       </nav>
     </header>
@@ -69,6 +69,6 @@
         <a href="#"><img src="../images/home/youtube.png" alt="youtube"></a>
       </section>
     </footer>
-    <script src=""></script>
+    <script src="../js/navbar.js"></script>
   </body>
 </html>

@@ -24,10 +24,12 @@ button {
   text-decoration: none;
   display: inline-block;
 }
+
 header {
   width: 100%;
-  height: 10vh;
+  height: 6vh;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -45,6 +47,8 @@ header {
 .navbar ul {
   display: flex;
   list-style: none;
+  margin: 0px;
+  padding: 0;
 }
 .navbar ul li {
   padding: 21px;
@@ -123,7 +127,7 @@ main {
 
 .Drones-cat h3 {
   position: absolute;
-  font-size: 3rem;
+  font-size: 34px;
   color: #071435;
   top: 10%;
   right: 41%;
@@ -153,7 +157,7 @@ main {
 
 .computers-cat h3 {
   position: absolute;
-  font-size: 3rem;
+  font-size: 34px;
   color: #071435;
   top: 6%;
   right: 50%;
@@ -183,7 +187,7 @@ main {
 
 .Consoles-cat h3 {
   position: absolute;
-  font-size: 3rem;
+  font-size: 34px;
   color: #071435;
   top: 36%;
   right: 47%;
@@ -213,7 +217,7 @@ main {
 
 .SmartPhones-cat h3 {
   position: absolute;
-  font-size: 3rem;
+  font-size: 34px;
   color: #071435;
   top: 6%;
   right: 15%;
@@ -230,11 +234,15 @@ main {
   transition: 0.5s;
   background-color: rgb(21, 181, 221);
 }
+
 footer {
-  height: 30vh;
+  /* position: absolute; */
+  height: 21vh;
   background-color: #071435;
   padding: 18px;
+  top: 147vh;
 }
+
 .contact-us {
   display: inline-block;
   color: #8691a7;
@@ -267,6 +275,73 @@ footer {
   filter: invert(1);
 }
 
+
+
+/* @media only screen and (min-width:) and (max-width: 850px) */
+
+@media only screen and (min-width: 320px) and (max-width: 730px) {
+  .Drones-cat {
+    position: absolute;
+    border-radius: 2%;
+    background-color: #ffffff;
+    height: 20%;
+    width: 96%;
+    top: 2%;
+    left: 2%;
+    border: 1px solid gray;
+  }
+  .Drones-cat img {
+    display: none;
+  }
+  .Drones-cat h3{
+    text-align: center;
+
+  }
+  .computers-cat {
+    width: 96%;
+    height: 22%;
+    left: 2%;
+    top: 24%;
+  }
+  .computers-cat h3{
+    top: 26%;
+    right: 40%;
+  }
+  .Consoles-cat img {
+    display: none;
+  }
+  .Consoles-cat {
+    position: absolute;
+    border-radius: 2%;
+    background-color: #ffffff;
+    width: 96%;
+    height: 21%;
+    left: 2%;
+    top: 48%;
+  }
+  .Consoles-cat h3 {
+    top: 28%;
+    right: 28%;
+  }
+  .computers-cat img{
+    display: none;
+  }
+  .SmartPhones-cat{
+    width: 96%;
+    height: 22%;
+    left: 2%;
+    top: 71%;
+  }
+  .SmartPhones-cat h3{
+    text-align: center;
+    top: 30%;
+    right: 25%;
+  }
+  .SmartPhones-cat img{
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 561px) {
   .navbar ul {
     position: absolute;
@@ -276,6 +351,10 @@ footer {
     margin: 0;
     background-color: #071435;
     display: initial;
+  }
+  .navbar ul li{
+    margin-top: 10px;
+    margin-left: 0px;
   }
   .navbar ul.hide-menu {
     display: none;
@@ -308,7 +387,8 @@ footer {
 
 @media only screen and (min-width: 561px) and (max-width: 728px) {
   .navbar ul li {
-    padding: 0;
+    padding: 19px;
+    margin: 1px 0px 1px 1px;
   }
 }
 
@@ -327,7 +407,7 @@ footer {
 
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   #cards-container .card {
-    width:60%;
+    width: 60%;
     margin-left: 74px;
   }
 }
