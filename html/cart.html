@@ -4,32 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quattrocento&display=swap"
-      rel="stylesheet"
-    />
-    <title>Home</title>
+    <script src="https://kit.fontawesome.com/d6ed6dee1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Racing+Sans+One&display=swap" rel="stylesheet"/>
+    <title>Cart</title>
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <a href=""><li>Home</li></a>
-          <a href=""><li>About Us</li></a>
-
-          <div>
-            <a href=""><li>Cart</li></a>
-          </div>
+      <nav class="navbar">
+        <a href="./index.html"><div class="brand-title">
+          <span style="color: #41b57d">Big</span>Electronic
+        </div></a>
+        <i class="fas fa-bars" id="burgerMenu"></i>
+        <ul id="menu" class="hide-menu" >
+          <li><a href="./consoles.html">Game consoles</a></li>
+          <li><a href="./mobiles.html">Mobiles</a></li>
+          <li><a href="./laptops.html">Laptops</a></li>
+          <li><a href="#"></a><i class="fas fa-shopping-cart"></i></a></li>
+          <span id="itemCounter"></span>
         </ul>
       </nav>
     </header>
-    <main>
-      <div id="mainBanner">
-        
-      </div>
+    <main class="main">
+      <section class="cart-container">
+          <table class="table">
+            <tbody>
+              <tr class="heading-row">
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>TOTAL</th>
+                <th></th>
+              </tr>
+              <tr class="item-row">
+                <td class="item">
+                  <img class="item-img"> 
+                  <div class="item-description">
+                    <h3>i-phone</h3> 
+                    <p>hello</p>
+                  </div>
+                </td class="item-price">
+                <td class="item-price">230$</td>
+                <td class="item-quantity">
+                  <i class="fas fa-minus"></i><span>0</span><i class="fas fa-plus"></i>
+                </td>
+                <td class="item-total">230$</td>
+                <td class="reomve-icon"><i class="fas fa-times"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        <div class="order-container">
+          <div class="order-head">
+            <h5>Order Summry</h5>
+          </div>
+          <div class="summry-main">
+            <h6>Subtotal</h6><span>230$</span>
+            <h6>Shipping</h6><span>Free</span>
+          </div>
+          <div class="total">
+            <h3>Total</h3><span>230$</span>
+          </div>
+          <button class="checkout-button">CHECKOUT</button>
+        </div>
+      </section>
+      
     </main>
-    <footer></footer>
-    <script src=""></script>
+    <footer>
+      <section class="contact-us">
+        <h3>contact us</h3>
+        <p>+972 549323827</p>
+        <p>custtomer@BigElect.com</p>
+        <p>Hayarkon 233, tel-aviv</p>
+      </section>
+      <section class="follow-us">
+        <h3>Follow us</h3>
+        <a href="#"><img src="../images/home/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="../images/home/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="../images/home/twitter.png" alt="twitter"></a>
+        <a href="#"><img src="../images/home/linkedin.png" alt="linkedin"></a>
+        <a href="#"><img src="../images/home/youtube.png" alt="youtube"></a>
+      </section>
+    </footer>
+    <script src="../js/navbar.js"></script>
   </body>
 </html>
+
+
