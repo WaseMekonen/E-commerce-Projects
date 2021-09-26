@@ -164,7 +164,7 @@ const products = [
     name: "Anbernic RG350",
     price: 120,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/xbarl", "https://did.li/6x5Hw"],
   },
   {
@@ -172,7 +172,7 @@ const products = [
     name: "Cougar Gaming Chair",
     price: 234,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/mJwlC", "https://did.li/DUYYH"],
   },
   {
@@ -180,7 +180,7 @@ const products = [
     name: "Hori Apex Racing Wheel",
     price: 105,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/U6qCN", "https://did.li/bhTfT"],
   },
   {
@@ -188,7 +188,7 @@ const products = [
     name: "Microsoft Xbox Series S Console",
     price: 495,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/sslTY", "https://did.li/JDNw5"],
   },
   {
@@ -196,7 +196,7 @@ const products = [
     name: "Microsoft Xbox Series X",
     price: 480,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/1Ofaa", "https://did.li/h1HNf"],
   },
   {
@@ -204,7 +204,7 @@ const products = [
     name: "Nintendo Switch",
     price: 239,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/ybarl", "https://did.li/PmC5q"],
   },
   {
@@ -212,7 +212,7 @@ const products = [
     name: "Oculus Quest 2",
     price: 220,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/7x5Hw", "https://did.li/nJwlC"],
   },
   {
@@ -220,7 +220,7 @@ const products = [
     name: "Playstation 3",
     price: 234,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/EUYYH", "https://did.li/V6qCN"],
   },
   {
@@ -228,7 +228,7 @@ const products = [
     name: "PlayStation 4 Console - 1TB Slim Edition",
     price: 450,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/chTfT", "https://did.li/tslTY"],
   },
   {
@@ -236,7 +236,7 @@ const products = [
     name: "PlayStation 5 Console",
     price: 499,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/KDNw5", "https://did.li/2Ofaa"],
   },
   {
@@ -244,7 +244,7 @@ const products = [
     name: "PlayStation 5 DualSense Wireless Controller",
     price: 78,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/zbarl", "https://did.li/i1HNf"],
   },
   {
@@ -252,7 +252,7 @@ const products = [
     name: "PlayStation 5 HD Camera",
     price: 132,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/QmC5q", "https://did.li/8x5Hw"],
   },
   {
@@ -260,7 +260,7 @@ const products = [
     name: "Playstation DualSense Charging Station",
     price: 109,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/oJwlC", "https://did.li/FUYYH"],
   },
   {
@@ -268,7 +268,7 @@ const products = [
     name: "Sony PlayStation 4 Camera",
     price: 354,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/W6qCN", "https://did.li/dhTfT"],
   },
   {
@@ -276,7 +276,7 @@ const products = [
     name: "SteelSeries Arctis 3 Console",
     price: 328,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/uslTY", "https://did.li/LDNw5"],
   },
   {
@@ -284,7 +284,7 @@ const products = [
     name: "Wii Sports Game",
     price: 365,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/3Ofaa", "https://did.li/j1HNf"],
   },
   {
@@ -292,7 +292,7 @@ const products = [
     name: "Xbox 360 4GB Slim Console",
     price: 429,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/Abarl", "https://did.li/RmC5q"],
   },
   {
@@ -300,7 +300,7 @@ const products = [
     name: "Xbox Elite Wireless Controller",
     price: 350,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/9x5Hw", "https://did.li/pJwlC"],
   },
   {
@@ -308,7 +308,7 @@ const products = [
     name: "Xbox One S 1TB Console",
     price: 459,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/GUYYH", "https://did.li/X6qCN"],
   },
   {
@@ -316,7 +316,7 @@ const products = [
     name: "Xbox Wireless Controller",
     price: 80,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "console games",
+    category: "game consoles",
     image: ["https://did.li/ehTfT", "https://did.li/vslTY"],
   },
   {
@@ -484,7 +484,7 @@ const products = [
     name: "Apple iPhone 11",
     price: 520,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/jy5Hw", "https://did.li/AJwlC"],
   },
   {
@@ -492,7 +492,7 @@ const products = [
     name: "Apple iPhone 12 Pro",
     price: 734,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/96qCN", "https://did.li/GslTY"],
   },
   {
@@ -500,7 +500,7 @@ const products = [
     name: "Apple iPhone SE",
     price: 690,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/hPfaa", "https://did.li/y1HNf"],
   },
   {
@@ -508,7 +508,7 @@ const products = [
     name: "Apple Magic Keyboard",
     price: 819,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/ny5Hw", "https://did.li/Pbarl"],
   },
   {
@@ -516,7 +516,7 @@ const products = [
     name: "Google Pixel 4A",
     price: 340,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/EJwlC", "https://did.li/VUYYH"],
   },
   {
@@ -524,7 +524,7 @@ const products = [
     name: "Google Pixel 5",
     price: 259,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/c7qCN", "https://did.li/thTfT"],
   },
   {
@@ -532,7 +532,7 @@ const products = [
     name: "iPad 8th gen",
     price: 459,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/KslTY", "https://did.li/JJwlC"],
   },
   {
@@ -540,7 +540,7 @@ const products = [
     name: "Ipad air wi-fi",
     price: 259,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/2DNw5", "https://did.li/iPfaa"],
   },
   {
@@ -548,7 +548,7 @@ const products = [
     name: "Lenovo Tab M10 TB-X505L",
     price: 540,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/z1HNf", "https://did.li/Qbarl"],
   },
   {
@@ -556,7 +556,7 @@ const products = [
     name: "Nokia C10 Android Smartphone",
     price: 354,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/WUYYH", "https://did.li/d7qCN"],
   },
   {
@@ -564,7 +564,7 @@ const products = [
     name: "OnePlus 8 Pro",
     price: 130,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/uhTfT", "https://did.li/LslTY"],
   },
   {
@@ -572,7 +572,7 @@ const products = [
     name: "OnePlus 9 Pro",
     price: 564,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/3DNw5", "https://did.li/jPfaa"],
   },
   {
@@ -580,7 +580,7 @@ const products = [
     name: "OnePlus Nord N100",
     price: 144,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/A1HNf", "https://did.li/Rbarl"],
   },
   {
@@ -588,7 +588,7 @@ const products = [
     name: "realme 7 Pro",
     price: 249,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/9mC5q", "https://did.li/py5Hw"],
   },
   {
@@ -596,7 +596,7 @@ const products = [
     name: "Samsung Galaxy A52 5G",
     price: 344,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/GJwlC", "https://did.li/XUYYH"],
   },
   {
@@ -604,7 +604,7 @@ const products = [
     name: "Samsung Galaxy A71 SM-A715F DS",
     price: 430,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/e7qCN", "https://did.li/MslTY"],
   },
   {
@@ -612,7 +612,7 @@ const products = [
     name: "Samsung Galaxy A72 SM",
     price: 529,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/4DNw5", "https://did.li/kPfaa"],
   },
   {
@@ -620,7 +620,7 @@ const products = [
     name: "Samsung Galaxy Note 20 Ultra",
     price: 450,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/B1HNf", "https://did.li/Sbarl"],
   },
   {
@@ -628,7 +628,7 @@ const products = [
     name: "Samsung Galaxy S20 Plus SM-G985F",
     price: 659,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/0mC5q", "https://did.li/qy5Hw"],
   },
   {
@@ -636,7 +636,7 @@ const products = [
     name: "Samsung Galaxy S20 Ultra 5G",
     price: 369,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/HJwlC", "https://did.li/YUYYH"],
   },
   {
@@ -644,7 +644,7 @@ const products = [
     name: "Samsung Galaxy Tab A 8.0",
     price: 654,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/f7qCN", "https://did.li/whTfT"],
   },
   {
@@ -652,7 +652,7 @@ const products = [
     name: "Samsung Galaxy Tab A7",
     price: 450,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/NslTY", "https://did.li/5DNw5"],
   },
   {
@@ -660,7 +660,7 @@ const products = [
     name: "Samsung Galaxy Tab S6 Lite",
     price: 540,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/lPfaa", "https://did.li/Tbarl"],
   },
   {
@@ -668,7 +668,7 @@ const products = [
     name: "Samsung Galaxy Tab S7",
     price: 500,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/ry5Hw", "https://did.li/IJwlC"],
   },
   {
@@ -676,7 +676,7 @@ const products = [
     name: "Xiaomi Mi 10T lite",
     price: 200,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/ZUYYH", "https://did.li/g7qCN"],
   },
   {
@@ -684,7 +684,7 @@ const products = [
     name: "Xiaomi Mi 11 Lite",
     price: 230,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/g7qCN", "https://did.li/xhTfT"],
   },
   {
@@ -692,7 +692,7 @@ const products = [
     name: "Xiaomi Poco M3",
     price: 370,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/OslTY", "https://did.li/6DNw5"],
   },
   {
@@ -700,7 +700,7 @@ const products = [
     name: "Xiaomi Poco X3",
     price: 400,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/mPfaa", "https://did.li/D1HNf"],
   },
   {
@@ -708,7 +708,7 @@ const products = [
     name: "Xiaomi Redmi 9",
     price: 340,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/Ubarl", "https://did.li/bnC5q"],
   },
   {
@@ -716,7 +716,7 @@ const products = [
     name: "Xiaomi Redmi 9C",
     price: 300,
     description: "Lorem ipsum dolor sit. Ut doloremque dolor impedit.",
-    category: "smartphones & tablets",
+    category: "mobiles",
     image: ["https://did.li/sy5Hw", "https://did.li/1UYYH"],
   },
 ];

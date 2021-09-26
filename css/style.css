@@ -3,6 +3,10 @@
   /* margin: 0;
   padding: 0; */
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 body {
   font-family: "Quattrocento Sans", sans-serif;
 }
@@ -37,6 +41,7 @@ header {
   height: 100%;
   background-color: #071435;
   color: white;
+  z-index: 1;
 }
 .fas.fa-bars {
   display: none;
@@ -55,9 +60,11 @@ header {
   margin-left: 22px;
 }
 .fa-shopping-cart {
+  position: absolute;
   content: "\f07a";
   color: white;
   padding-right: 15px;
+  margin-right: 2px;
   font-size: 1rem;
 }
 .navbar li:hover {
@@ -66,6 +73,8 @@ header {
 }
 .brand-title {
   font-size: 34px;
+  list-style: none;
+  color: white;
 }
 main {
   position: relative;
@@ -173,6 +182,7 @@ main {
   box-shadow: 2px 3px 14px rgb(5, 58, 96);
   transition: 0.5s;
   background-color: rgb(252, 247, 0);
+  transition: 0.2s;
 }
 
 .Consoles-cat {
@@ -205,7 +215,7 @@ main {
   background-color: rgb(38, 207, 103);
 }
 
-.SmartPhones-cat {
+.Mobiles-cat {
   position: absolute;
   border-radius: 2%;
   background-color: #ffffff;
@@ -215,7 +225,7 @@ main {
   top: 2%;
 }
 
-.SmartPhones-cat h3 {
+.Mobiles-cat h3 {
   position: absolute;
   font-size: 34px;
   color: #071435;
@@ -223,13 +233,13 @@ main {
   right: 15%;
 }
 
-.SmartPhones-cat img {
+.Mobiles-cat img {
   position: absolute;
   width: 54%;
   bottom: 5%;
   left: 27%;
 }
-.SmartPhones-cat:hover {
+.Mobiles-cat:hover {
   box-shadow: 2px 3px 14px rgb(5, 58, 96);
   transition: 0.5s;
   background-color: rgb(21, 181, 221);
@@ -275,9 +285,37 @@ footer {
   filter: invert(1);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 553px) {
+  .banner .circle-drone-bg img {
+    display: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    top: 27%;
+  }
+  .banner h2 {
+    font-size: 3rem;
+    top: 51%;
+  }
 
+  .circle-drone-bg {
+    display: none;
+  }
+}
 
-/* @media only screen and (min-width:) and (max-width: 850px) */
+@media only screen and (min-width: 553px) and (max-width: 733px) {
+  .banner h1 {
+    font-size: 4rem;
+  }
+  .banner h2 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 733px) and (max-width: 850px) {
+  .banner h1 {
+    font-size: 5rem;
+  }
+}
 
 @media only screen and (min-width: 320px) and (max-width: 730px) {
   .Drones-cat {
@@ -293,9 +331,8 @@ footer {
   .Drones-cat img {
     display: none;
   }
-  .Drones-cat h3{
+  .Drones-cat h3 {
     text-align: center;
-
   }
   .computers-cat {
     width: 96%;
@@ -303,7 +340,7 @@ footer {
     left: 2%;
     top: 24%;
   }
-  .computers-cat h3{
+  .computers-cat h3 {
     top: 26%;
     right: 40%;
   }
@@ -323,21 +360,21 @@ footer {
     top: 28%;
     right: 28%;
   }
-  .computers-cat img{
+  .computers-cat img {
     display: none;
   }
-  .SmartPhones-cat{
+  .Mobiles-cat {
     width: 96%;
     height: 22%;
     left: 2%;
     top: 71%;
   }
-  .SmartPhones-cat h3{
+  .Mobiles-cat h3 {
     text-align: center;
     top: 30%;
     right: 25%;
   }
-  .SmartPhones-cat img{
+  .Mobiles-cat img {
     display: none;
   }
 }
@@ -352,11 +389,20 @@ footer {
     background-color: #071435;
     display: initial;
   }
-  .navbar ul li{
+  .navbar ul li {
     margin-top: 10px;
     margin-left: 0px;
   }
   .navbar ul.hide-menu {
+    display: none;
+  }
+  .fa-shopping-cart:before {
+    content: "\f07a";
+    position: absolute;
+    top: 278px;
+    right: 106px;
+  }
+  #itemCounter {
     display: none;
   }
   i.fas.fa-bars {

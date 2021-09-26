@@ -1,15 +1,31 @@
 .navbar {
   position: fixed;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
   height: 10vh;
   width: 100%;
-  /* background-color: #071435; */
   color: white;
-  /* z-index: 1; */
+  z-index: 1;
 }
-
+#itemCounter{
+  display: none;
+  position: absolute;
+  background: white;
+  color: #2ab050;
+  border-radius: 50%;
+  border: 1px solid #071435;
+  font-size: 12px;
+  width: 19px;
+  height: 16px;
+  right: 3px;
+  top: 6px;
+  text-align: center;
+}
+.fa-shopping-cart{
+  content: "\f07a";
+  font-size: 23px;
+  position: absolute;
+  top: 18px;
+  right: -3px;
+}
 main {
   margin-top: 4vh;
 }

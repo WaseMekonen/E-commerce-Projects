@@ -64,9 +64,11 @@ for (let i = 0; i < addToCartButtons.length; i++) {
     }
     if(cart.length == 0){
       itemCounterButoon.innerText='';
+      itemCounterButoon.style.display="none"
     }
     else{
       itemCounterButoon.innerText=cart.length
+      itemCounterButoon.style.display="block"
     }
   });
 }

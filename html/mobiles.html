@@ -6,32 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/d6ed6dee1c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/smartphone.css" />
+    <link rel="stylesheet" href="../css/pages.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Racing+Sans+One&display=swap" rel="stylesheet"/>
-    <title>smartphones</title>
+    <title>Mobiles</title>
   </head>
   <body>
     <header>
       <nav class="navbar">
-        <div class="brand-title">
+        <a href="./index.html"><div class="brand-title">
           <span style="color: #41b57d">Big</span>Electronic
-        </div>
+        </div></a>
         <i class="fas fa-bars" id="burgerMenu"></i>
         <ul id="menu" class="hide-menu" >
-          <li><a href="./drones.html"></a>Drones</li>
-          <li><a href="./consoles.html"></a>Game consoles</li>
-          <li><a href="./laptops.html"></a>Laptops</li>
-          <li><a href="#"></a><i class="fas fa-shopping-cart"><span id="itemCounter"></span></i></a></li>
+          <li><a href="./drones.html">Drones</a></li>
+          <li><a href="./consoles.html">Game consoles</a></li>
+          <li><a href="./laptops.html">Laptops</a></li>
+          <li><a href="#"></a><i class="fas fa-shopping-cart"></i></a></li>
+          <span id="itemCounter"></span>
         </ul>
       </nav>
     </header>
     <main>
       <div class="products">
-        <h1 class="page-category" id="smartphones & tablets">Smartphones and tablets</h1>
+        <h1 class="page-category" id="mobiles">Smartphones and tablets</h1>
         <br />
         <section class="cards-container" id="cards-container"></section>
       </div>
+      <i class="fas fa-arrow-circle-up"></i>
     </main>
     <footer>
       <section class="contact-us">
@@ -50,7 +52,7 @@
       </section>
     </footer>
     <script src="../js/navbar.js"></script>
-    <script src="../js/products.js"></script>
+    <script src="../js/items.js"></script>
     <script src="../js/produtsPageFunctions.js"></script>
   </body>
 </html>
