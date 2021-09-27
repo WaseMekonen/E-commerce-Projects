@@ -94,7 +94,7 @@ main {
   display: none;
   position: absolute;
   background: white;
-  color: #2ab050;
+  color: #000000;
   border-radius: 50%;
   border: 1px solid #071435;
   font-size: 12px;
@@ -264,10 +264,12 @@ footer {
     content: "\f07a";
     position: absolute;
     top: 214px;
-    right: 106px;
+    right: 43px;
   }
   #itemCounter {
     display: none;
+    right: 34px;
+    top: 222px;
   }
   i.fas.fa-bars {
     user-select: none;
