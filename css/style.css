@@ -309,7 +309,7 @@ footer {
   .navbar ul.hide-menu {
     display: none;
   }
-  .fa-shopping-cart:before {
+  #cart-icon:before {
     content: "\f07a";
     position: absolute;
     top: 278px;

@@ -263,7 +263,7 @@ footer {
   .fa-shopping-cart:before {
     content: "\f07a";
     position: absolute;
-    top: 270px;
+    top: 214px;
     right: 106px;
   }
   #itemCounter {
