@@ -312,8 +312,8 @@ footer {
   #cart-icon:before {
     content: "\f07a";
     position: absolute;
-    top: 278px;
-    right: 106px;
+    top: 289px;
+    right: 66px;
   }
   #itemCounter {
     display: none;
