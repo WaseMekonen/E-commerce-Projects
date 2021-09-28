@@ -78,9 +78,9 @@ header {
 }
 main {
   position: relative;
-  /* margin-top: 4vh; */
   width: 100%;
   height: auto;
+  background-color: #e0e0e0;
 }
 .banner {
   position: relative;
@@ -117,12 +117,32 @@ main {
   height: 138%;
   right: -19%;
   top: -9%;
+  animation: Levitation ;
+  animation-duration: 4s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  
 }
+
+@keyframes Levitation {
+  0%{
+    top: -9%;
+  }
+  50%{
+    top: -5%;
+  }
+  100%{
+    top: -9%;
+  }
+  
+}
+
+
 .categories {
   position: relative;
   width: 100%;
   height: 620px;
-  background-color: #6c8b8f;
+  background-color: #e0e0e0;
 }
 .Drones-cat {
   position: absolute;
@@ -132,7 +152,6 @@ main {
   width: 36%;
   top: 2%;
   left: 2%;
-  border: 1px solid gray;
 }
 
 .Drones-cat h3 {

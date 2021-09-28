@@ -14,7 +14,7 @@ function addToCartByID(id) {
   cart.push(Product);
 }
 
-function removeItemFromCartById(id) {
+function removeItemFromCartById(id,array) {
   for (let i = 0; i < cart.length; i++) {
     if (cart[i].id == id) {
       cart.splice(i, 1);
@@ -60,7 +60,7 @@ for (let i = 0; i < addToCartButtons.length; i++) {
     } else {
       button.innerText = "add to cart";
       button.style.backgroundColor = "#2ab050";
-      removeItemFromCartById(button.id);
+      removeItemFromCartById(button.id,cart);
     }
     if(cart.length == 0){
       itemCounterButoon.innerText='';

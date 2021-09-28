@@ -96,14 +96,6 @@ main {
   text-align: left;
 }
 
-#Price{
-  text-align: end;
-
-}
-#Quantity{
-  text-align: center;
-
-}
 .table {
   border-collapse: collapse;
   width: 71%;

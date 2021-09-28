@@ -2,7 +2,7 @@ const burgerMenu =document.getElementById("burgerMenu");
 const menu = document.getElementById("menu");
 
 
-burgerMenu.onclick=()=>{
+burgerMenu.onclick = ()=>{
     if( menu.className =="hide-menu"){
         menu.className ="";
     }
