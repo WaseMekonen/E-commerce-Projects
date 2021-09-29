@@ -14,14 +14,6 @@ function addToCartByID(id) {
   cart.push(Product);
 }
 
-function removeItemFromCartById(id,array) {
-  for (let i = 0; i < cart.length; i++) {
-    if (cart[i].id == id) {
-      cart.splice(i, 1);
-    }
-  }
-}
-
 function showItemByCategory(div, category) {
   for (let i = 0; i < products.length; i++) {
     if (products[i].category == category) {

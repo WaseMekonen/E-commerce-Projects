@@ -80,10 +80,10 @@ function addEventListenersToRemoveIcons() {
 }
 
 function addEventListenersToPlusIcons() {
-  const removeIcons = document.getElementsByClassName("plus");
+  const plusIcons = document.getElementsByClassName("plus");
 
-  for (let i = 0; i < removeIcons.length; i++) {
-    removeIcons[i].addEventListener("click", function (e) {
+  for (let i = 0; i < plusIcons.length; i++) {
+    plusIcons[i].addEventListener("click", function (e) {
         const plusButton = e.target;
         const itemIdString = plusButton.id;
         const itemId = Number(itemIdString.slice(-1));
