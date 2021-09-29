@@ -117,6 +117,21 @@ main {
   font-size: 4rem;
   top: 45%;
   left: 6%;
+  animation-name: slideinup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+}
+
+@keyframes slideinup {
+  0%{
+    top:107%
+  }
+  25%{}
+  50%{}
+  100%{
+    top:45%
+  }
+  
 }
 .circle-drone-bg {
   position: absolute;
@@ -127,6 +142,7 @@ main {
   border-radius: 50%;
   left: 58%;
 }
+
 .banner .circle-drone-bg img {
   position: absolute;
   width: 166%;
@@ -136,7 +152,6 @@ main {
   animation: Levitation ;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  
 }
 
 @keyframes Levitation {
@@ -149,9 +164,7 @@ main {
   100%{
     top: -9%;
   }
-  
 }
-
 
 .categories {
   position: relative;
@@ -184,9 +197,9 @@ main {
   left: 13%;
 }
 .Drones-cat:hover {
-  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  box-shadow: 2px 3px 14px rgb(52 52 52);
   transition: 0.5s;
-  background-color: rgb(138, 83, 184);
+  filter: brightness(0.8);
 }
 
 .computers-cat {
@@ -214,10 +227,9 @@ main {
   left: 2%;
 }
 .computers-cat:hover {
-  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  box-shadow: 2px 3px 14px rgb(52 52 52);
   transition: 0.5s;
-  background-color: rgb(252, 247, 0);
-  transition: 0.2s;
+  filter: brightness(0.8);
 }
 
 .Consoles-cat {
@@ -245,9 +257,9 @@ main {
   left: 71%;
 }
 .Consoles-cat:hover {
-  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  box-shadow: 2px 3px 14px rgb(52 52 52);
   transition: 0.5s;
-  background-color: rgb(38, 207, 103);
+  filter: brightness(0.8);
 }
 
 .Mobiles-cat {
@@ -275,9 +287,9 @@ main {
   left: 27%;
 }
 .Mobiles-cat:hover {
-  box-shadow: 2px 3px 14px rgb(5, 58, 96);
+  box-shadow: 2px 3px 14px rgb(52 52 52);
   transition: 0.5s;
-  background-color: rgb(21, 181, 221);
+  filter: brightness(0.8);
 }
 
 footer {
