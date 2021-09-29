@@ -441,7 +441,6 @@ footer {
     width: 96%;
     top: 2%;
     left: 2%;
-    border: 1px solid gray;
   }
   .Drones-cat img {
     display: none;
@@ -488,7 +487,7 @@ footer {
   .Mobiles-cat h3 {
     text-align: center;
     top: 30%;
-    right: 25%;
+    right: 42%;
   }
   .Mobiles-cat img {
     display: none;
